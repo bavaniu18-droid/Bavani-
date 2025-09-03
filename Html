@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Blue Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Alex Johnson</h1>
+            <p>Web Developer & UI/UX Designer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">bavani</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm bavani, a passionate web developer and designer with over 5 years of experience creating beautiful and functional websites. I specialize in front-end development and user experience design.</p>
+                    <p>My approach combines technical expertise with creative design to deliver engaging digital experiences that not only look great but also perform exceptionally well.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the mountains.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-title">
+                        <h3>HTML/CSS</h3>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title">
+                        <h3>JavaScript</h3>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title">
+                        <h3>UI/UX Design</h3>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title">
+                        <h3>React</h3>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A fully responsive e-commerce platform with product filtering and cart functionality.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Player App</h3>
+                        <p>A sleek music player with playlist management and audio visualization.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather application with forecast data and interactive maps.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>San Francisco, California</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>alex@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2023 bavani. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
